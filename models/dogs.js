@@ -1,19 +1,19 @@
 const dogs = [
     {
-        name: alfredo,
+        name: 'alfredo',
         age: 7,
-        breed: lab
+        breed: 'lab'
     },
     {
-        name: moose,
+        name: 'moose',
         age: 3,
-        breed: poodle
+        breed: 'poodle'
     },
     {
-        name: george,
+        name: 'george',
         age: 27,
-        breed: chihuahua
+        breed: 'chihuahua'
     }
 ]
 
-module.export = dogs;
+module.exports = dogs;
