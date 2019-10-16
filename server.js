@@ -21,6 +21,12 @@ app.delete('/dogs/:index', (req, res) => {
     res.redirect('/dogs');
 })
 
+app.get('/dogs/:index/edit', (req, res) => {
+    res.render('edit.ejs', {
+    Dogs: Dogs[req.params.index],
+    index: req.params.index
+    })
+})
 
 app.listen(3000, () => {
     console.log('listening');
