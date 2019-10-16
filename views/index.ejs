@@ -18,7 +18,9 @@
                 Age: <%= dogs[i].age %> <br>
                 Breed: <%= dogs[i].breed %> <br>
             </li>
-    
+            <form action="/dogs/<%=i%>?_method=DELETE" method="POST">
+                <button type="submit">DELETE</button>
+            </form>
 
        <%}%>
 

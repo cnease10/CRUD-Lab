@@ -19,6 +19,7 @@
   "homepage": "https://github.com/cnease10/CRUD-Lab#readme",
   "dependencies": {
     "ejs": "^2.7.1",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "method-override": "^3.0.0"
   }
 }
